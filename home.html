@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsity-Connect</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Varsity-Connect</h1>
+        <nav>
+            <ul>
+                <li><a href="groove.html">Groove</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="praying.html">Church</a></li>
+                <li><a href="library.html">Library</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <a href="groove.html"><img src="images/dancing.jpg" alt="Dancing"></a>
+            <a href="gaming.html"><img src="images/gaming.jpg" alt="Gaming"></a>
+            <a href="praying.html"><img src="images/praying.jpg" alt="Praying"></a>
+            <a href="library.html"><img src="images/studying.jpg" alt="Studying"></a>
+        </section>
+        
+        <section id="users">
+            <h2>Users</h2>
+            <div class="user">
+                <img src="images/profile1.jpg" alt="Profile Picture">
+                <h3>John Doe</h3>
+                <p>Shared Interests: Music, Movies</p>
+                <button onclick="openChat('John Doe')">Chat</button>
+            </div>
+            <div class="user">
+                <img src="images/profile2.jpg" alt="Profile Picture">
+                <h3>Jane Smith</h3>
+                <p>Shared Interests: Sports</p>
+                <button onclick="openChat('Jane Smith')">Chat</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer">&copy; 2024 Varsity Connect Publishers Limited</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
